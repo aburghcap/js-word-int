@@ -250,3 +250,18 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# above is from VS project creation.
+
+# from https://angular.io/docs/ts/latest/cookbook/visual-studio-2015.html:
+.idea
+node_modules
+jspm_packages
+npm-debug.*
+link-checker-results.txt
+app/**/*.js
+*.js.map
+e2e/**/*.js
+e2e/**/*.js.map
+_test-output
+_temp
