@@ -12,7 +12,6 @@
     "test-once": "tsc && karma start karma.conf.js --single-run",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    // from OfficeAddInWithAngular2 https://code.msdn.microsoft.com/office/Building-an-Office-add-in-a9d506cd:
     "typings": "typings",
     "install": "typings install",
     "setup": "npm install && typings install"
