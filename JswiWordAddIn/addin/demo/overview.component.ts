@@ -7,9 +7,9 @@
 })
 
 export class OverviewComponent {
-    title: string = "Entry page";
-    description: string = 'Excel add-in sample with Angular 2 and Office UI Fabric';
-
+    title: string = "Word Add-in";
+    description: string = 'Excel example with Angular 2 and Office UI Fabric';
+    
     details: Object[] = [
         {
             route: '/office',

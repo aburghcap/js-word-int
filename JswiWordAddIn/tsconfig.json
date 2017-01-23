@@ -1,5 +1,10 @@
+// TypeScript Configuration
+// http://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+
+
 {
   "compilerOptions": {
+    "compileOnSave": true,
     "target": "es5",
     "module": "commonjs",
     "moduleResolution": "node",
@@ -8,6 +13,16 @@
     "experimentalDecorators": true,
     "lib": [ "es2015", "dom" ],
     "noImplicitAny": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
     "suppressImplicitAnyIndexErrors": true
-  }
+  },
+  "include": [
+    "addin/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "typings/main",
+    "typings/main.d.ts"
+  ]
 }

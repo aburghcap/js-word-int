@@ -7,7 +7,7 @@
 })
 
 export class AppComponent implements OnInit {
-    title: string = 'Angular 2 Excel Add-in';
+    title: string = 'JavaScript Word Add-in';
 
     constructor() {
 

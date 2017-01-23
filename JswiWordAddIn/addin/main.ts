@@ -12,6 +12,7 @@ enableProdMode();
 //platformBrowserDynamic().bootstrapModule(AppModule);
 
 //bootstrap with Office.js for in Office
+// see https://dev.office.com/docs/add-ins/develop/add-ins-with-angular2
   Office.initialize = () => {
       console.log("Office init: bootstrapping Angular2");
       platformBrowserDynamic().bootstrapModule(AppModule);

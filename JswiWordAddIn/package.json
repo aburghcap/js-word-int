@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
+  "name": "js-word-int",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "JavaScript Word Integration with Office JS API, Angular 2, TypeScript, Fabric UI",
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
@@ -11,11 +11,15 @@
     "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
     "test-once": "tsc && karma start karma.conf.js --single-run",
     "tsc": "tsc",
-    "tsc:w": "tsc -w"
+    "tsc:w": "tsc -w",
+    // from OfficeAddInWithAngular2 https://code.msdn.microsoft.com/office/Building-an-Office-add-in-a9d506cd:
+    "typings": "typings",
+    "install": "typings install",
+    "setup": "npm install && typings install"
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "TODO",
   "dependencies": {
     "@angular/common": "~2.4.0",
     "@angular/compiler": "~2.4.0",
@@ -53,5 +57,10 @@
     "@types/node": "^6.0.46",
     "@types/jasmine": "^2.5.36"
   },
-  "repository": {}
+  "repository": {},
+  "-vs-binding": {
+    "ProjectOpened": [
+      "setup"
+    ]
+  }
 }
